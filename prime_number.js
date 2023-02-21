@@ -7,9 +7,4 @@ if (num%i==0){
 count++
 }
 }
-
-if (count==0){
-console.log("isPrime")
-}else {
-console.log("Not Prime")
-}
+(count==2) ? console.log("isPrime") : console.log("Not Prime")
